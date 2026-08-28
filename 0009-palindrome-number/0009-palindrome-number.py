@@ -4,9 +4,15 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        y = list(str(x)[::-1])
+        if x < 0:
+            return False
 
-        if str(x) == ''.join(y):
-            return True
+        original = x
+        reverse = 0
 
-        return False
+        while x > 0:
+            digit = x % 10
+            reverse = reverse * 10 + digit
+            x = x // 10
+
+        return original == reverse
