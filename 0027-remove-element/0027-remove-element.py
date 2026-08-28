@@ -6,17 +6,15 @@ class Solution(object):
         :rtype: int
         """
 
+        k = 0
 
         for i in range(len(nums) - 1, -1, -1):
             if nums[i] == val:
                 nums.pop(i)
 
-        k = 0
-
-        for c in nums:
-            if c != val:
+        for i in range(len(nums)):
+            if nums[i] != val:
                 k += 1
 
         print(k)
-        print(nums)
-                
+        print(nums[:k])
