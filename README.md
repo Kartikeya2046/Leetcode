@@ -33,8 +33,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/Kartikeya2046/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Kartikeya2046/Leetcode/tree/master/0009-palindrome-number) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Kartikeya2046/Leetcode/tree/master/3723-maximize-sum-of-squares-of-digits) |
 ## Two Pointers
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/Kartikeya2046/Leetcode/tree/master/0027-remove-element) |
+## Greedy
+|  |
+| ------- |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Kartikeya2046/Leetcode/tree/master/3723-maximize-sum-of-squares-of-digits) |
 <!---LeetCode Topics End-->
